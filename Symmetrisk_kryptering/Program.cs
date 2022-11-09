@@ -92,16 +92,16 @@ do
     // Write a message to encrypt
     Console.WriteLine();
     Console.Write("Enter a message to encrypt: ");
-    string message = Console.ReadLine();
+    string message = File.ReadAllText("C:\\Users\\gummi\\Desktop\\test.txt");
 
-
+    Console.WriteLine();
     byte[] encrypted = encrypter.Encrypt(message);
-    Console.WriteLine($"Encrypted message: {Convert.ToBase64String(encrypted)}");
+    //Console.WriteLine($"Encrypted message: {Convert.ToBase64String(encrypted)}");
 
     string decrypted = encrypter.Decrypt(encrypted);
-    Console.WriteLine($"Decrypted message: {decrypted}");
-    Console.WriteLine($"Encrypted time: {encrypter.TimeSpans[0]} ms");
-    Console.WriteLine($"Decrypted time: {encrypter.TimeSpans[1]} ms");
+    //Console.WriteLine($"Decrypted message: {decrypted}");
+    Console.WriteLine($"Encrypted time: {encrypter.TimeSpans[0].Milliseconds} ms");
+    Console.WriteLine($"Decrypted time: {encrypter.TimeSpans[1].Milliseconds} ms");
 
     Console.WriteLine("--- End ---");
 
