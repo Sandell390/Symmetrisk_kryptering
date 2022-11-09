@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symmetrisk_kryptering_GUI", "Symmetrisk_kryptering\Symmetrisk_kryptering_GUI.csproj", "{E83DAAE8-19CC-4413-A2CA-C7817C37C587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Symmetrisk_kryptering_Backend", "Symmetrisk_kryptering_Backend\Symmetrisk_kryptering_Backend.csproj", "{8CAA7C7F-478A-43B5-A286-A06C709620FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E83DAAE8-19CC-4413-A2CA-C7817C37C587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E83DAAE8-19CC-4413-A2CA-C7817C37C587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E83DAAE8-19CC-4413-A2CA-C7817C37C587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E83DAAE8-19CC-4413-A2CA-C7817C37C587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAA7C7F-478A-43B5-A286-A06C709620FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAA7C7F-478A-43B5-A286-A06C709620FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAA7C7F-478A-43B5-A286-A06C709620FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAA7C7F-478A-43B5-A286-A06C709620FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2A190EE-B777-4076-B130-1CEC87D85B88}
+	EndGlobalSection
+EndGlobal
